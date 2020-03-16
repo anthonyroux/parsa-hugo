@@ -1,7 +1,6 @@
 baseURL = "https://foodie-quarantine.netlify.com"
 languageCode = "en-us"
 paginate = 6
-<<<<<<< HEAD
 DefaultContentLanguage = "en"
 
 # output
@@ -17,7 +16,7 @@ weight = 2
 URL = "contact"
 name = "Contact"
 weight = 3
->>>>>>> 0dec695850c41d6f66e11efdd26a02bbd8aed9d1
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]

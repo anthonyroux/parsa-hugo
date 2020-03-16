@@ -1,6 +1,9 @@
 baseURL = "https://foodie-quarantine.netlify.com"
 languageCode = "en-us"
 paginate = 6
+DefaultContentLanguage = "en"
+
+# output
 summaryLength = "10"
 theme = "parsa-hugo"
 title = "Foodie In Quarantine"
@@ -12,6 +15,7 @@ weight = 2
 URL = "contact"
 name = "Contact"
 weight = 3
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
@@ -74,3 +78,20 @@ icon = "ti-linkedin"
 [[params.social]]
 URL = "#"
 icon = "ti-github"
+URL = "#"
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+
+################################ Spanish Language ########################
+[Languages.es]
+languageName = "Es"
+languageCode = "es-es"
+contentDir = "content/spanish"
+weight = 2
+home = "Hogar"

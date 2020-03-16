@@ -4,7 +4,6 @@ paginate = 6
 DefaultContentLanguage = "en"
 
 # output
-=======
 summaryLength = "10"
 theme = "parsa-hugo"
 title = "Foodie In Quarantine"

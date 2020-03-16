@@ -78,7 +78,6 @@ icon = "ti-linkedin"
 [[params.social]]
 URL = "#"
 icon = "ti-github"
-URL = "#"
 
 ################################ English Language ########################
 [Languages.en]

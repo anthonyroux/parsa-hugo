@@ -5,4 +5,4 @@ description: This is meta description
 image: images/author.jpg
 
 ---
-Raquel is.... blabla
+Raquel is.... EN

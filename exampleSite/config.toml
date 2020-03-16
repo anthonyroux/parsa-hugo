@@ -2,6 +2,7 @@ baseURL = "https://foodie-quarantine.netlify.com"
 languageCode = "en-us"
 paginate = 6
 DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 # output
 summaryLength = "10"
@@ -28,7 +29,7 @@ copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)
 description = "This is meta description"
 email = "???@??.com"
 google_analitycs_id = "Your ID"
-home = "Home"
+
 layout = "1"
 logo = "images/logo.png"
 mobile = "XXXX"
@@ -94,3 +95,4 @@ languageCode = "es-es"
 contentDir = "content/spanish"
 weight = 2
 home = "Hogar"
+

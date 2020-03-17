@@ -1,5 +1,5 @@
-baseURL = "https://foodie-quarantine.netlify.com"
-languageCode = "en-us"
+# baseURL = "https://foodie-quarantine.netlify.com"
+# languageCode = "en-us"
 paginate = 6
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
@@ -8,14 +8,6 @@ defaultContentLanguageInSubdir = true
 summaryLength = "10"
 theme = "parsa-hugo"
 title = "Foodie In Quarantine"
-[[menu.main]]
-URL = "about"
-name = "About"
-weight = 2
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 3
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -23,7 +15,6 @@ home = ["HTML", "RSS", "JSON"]
 address = "6 rip carl Avenue CA 90733"
 author = "Raquel"
 author_image = "images/banner-img.png"
-bio = "I’m XXXX"
 contact_form_action = "#"
 copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
 description = "This is meta description"
@@ -80,19 +71,37 @@ icon = "ti-linkedin"
 URL = "#"
 icon = "ti-github"
 
-################################ English Language ########################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 1
-home = "Home"
+[languages]
+  [languages.en]
+    languageName = "En"
+    languageCode = "en-us"
+    contentDir = "content/english"
+    weight = 1
+    home = "Home"
+    [[languages.en.menu.main]]
+      URL = "en/about"
+      name = "About"
+      weight = 2
+    [[languages.en.menu.main]]
+      URL = "en/contact"
+      name = "Contact"
+      weight = 3
+    [[languages.en.params]]
+      bio = "Raquel EN"
 
-################################ Spanish Language ########################
-[Languages.es]
-languageName = "Es"
-languageCode = "es-es"
-contentDir = "content/spanish"
-weight = 2
-home = "Hogar"
-
+  [languages.es]
+    languageName = "Es"
+    languageCode = "es-es"
+    contentDir = "content/spanish"
+    weight = 2
+    home = "Hogar"
+    [[languages.es.menu.main]]
+      URL = "es/about"
+      name = "AboutES"
+      weight = 2
+    [[languages.es.menu.main]]
+      URL = "es/contact"
+      name = "ContactES"
+      weight = 3
+    [[languages.es.params]]
+      bio = "Raquel ES"

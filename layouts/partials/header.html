@@ -31,7 +31,7 @@
           </a>
           <div class="dropdown-menu" >
             {{ range .Children }}
-            <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
+            <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}>{{ .Name }}</a>
             {{ end }}
           </div>
         </li>

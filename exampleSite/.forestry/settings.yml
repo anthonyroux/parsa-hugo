@@ -31,12 +31,9 @@ sections:
   create: all
   match: "*.toml"
   new_doc_ext: toml
-- type: directory
-  path: exampleSite/i18n
-  label: i18n
-  create: all
-  match: "*.toml"
-  new_doc_ext: toml
+- type: document
+  path: exampleSite/i18n/en.toml
+  label: i18n/en
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''

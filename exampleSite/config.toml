@@ -81,11 +81,11 @@ icon = "ti-github"
     baseURL = "https://foodie-quarantine.netlify.com/en/"
 
     [[languages.en.menu.main]]
-      URL = "en/about"
+      URL = "about"
       name = "About"
       weight = 2
     [[languages.en.menu.main]]
-      URL = "en/contact"
+      URL = "contact"
       name = "Contact"
       weight = 3
     [[languages.en.params]]
@@ -99,11 +99,11 @@ icon = "ti-github"
     home = "Hogar"
     baseURL = "https://foodie-quarantine.netlify.com/es/"
     [[languages.es.menu.main]]
-      URL = "es/about"
+      URL = "about"
       name = "AboutES"
       weight = 2
     [[languages.es.menu.main]]
-      URL = "es/contact"
+      URL = "contact"
       name = "ContactES"
       weight = 3
     [[languages.es.params]]

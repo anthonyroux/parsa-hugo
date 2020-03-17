@@ -1,26 +1,38 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
 - type: directory
   path: exampleSite/content
   label: Pages
-  create: all
+  create: documents
   match: "*"
+  templates:
+  - post
 - type: directory
   path: exampleSite/content/english
-  label: English
-  create: all
+  label: Post-En
+  create: documents
   match: "**/*"
+  templates:
+  - post
 - type: directory
   path: exampleSite/content/spanish
-  label: Spanish
-  create: all
+  label: Post-Es
+  create: documents
   match: "**/*"
-upload_dir: exampleSite//static/uploads
-public_path: "/uploads"
+  templates:
+  - post
+- type: directory
+  path: exampleSite
+  label: Configuration
+  create: all
+  match: "*.toml"
+  new_doc_ext: toml
+upload_dir: exampleSite/static/images
+public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

@@ -28,3 +28,4 @@ fields:
   description: 'type: post or featured'
 pages:
 - exampleSite/content/spanish/es-test-late-night.md
+- exampleSite/content/spanish/test-2-late.md

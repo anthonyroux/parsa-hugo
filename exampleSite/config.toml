@@ -1,5 +1,5 @@
 baseURL = "https://foodie-quarantine.netlify.com"
-languageCode = "en-us"
+# languageCode = "en-us"
 paginate = 6
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
@@ -78,6 +78,8 @@ icon = "ti-github"
     contentDir = "content/english"
     weight = 1
     home = "Home"
+    baseURL = "https://foodie-quarantine.netlify.com/en/"
+
     [[languages.en.menu.main]]
       URL = "en/about"
       name = "About"
@@ -95,6 +97,7 @@ icon = "ti-github"
     contentDir = "content/spanish"
     weight = 2
     home = "Hogar"
+    baseURL = "https://foodie-quarantine.netlify.com/es/"
     [[languages.es.menu.main]]
       URL = "es/about"
       name = "AboutES"
